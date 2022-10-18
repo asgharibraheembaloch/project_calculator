@@ -10,67 +10,35 @@ async function calculator() {
   const input2 = await inquirer.prompt([
     {type: "number", name:"input", message:"please input number value"}
   ])
-  if(calculation.type==='add'){
-    let  val = 0
-    let flag = false
 
-    /* let input = await inquirer.prompt([
-      {type: "number", name:"input", message:"please input number value"}
+  let calc_done = false
+
+
+  while (!calc_done) {
+    let val = 0
+    let confirmed = await inquirer.prompt([
+      {type: "confirm", name:"(y/N)", message:"if you have completed all calculation please select y for yes else select n for No"}
     ])
-
-    add += input */
-    
-    if(!flag){
-      let confirmed = await inquirer.prompt([
-        {type: "confirm", name:"(y/N)", message:"if you have completed all calculation please select y for yes else select n for No"}
-      ])
-      if (confirmed['(y/N)']){
-        flag = true
-      } else
-      {
-        flag = false
-      }
+    if (confirmed['(y/N)']){
+      calc_done = true
     } else {
       let input = await inquirer.prompt([
-        {type: "number", name:"input", message:"please input number value"}
+        {type: "number", name:"input",default:0, message:"please input number value"}
       ])
+      if(calculation.type==='add'){
+        val += input['input']
+      } else if(calculation.type==='subtract'){
+        val -= input['input']
+      } else if(calculation.type==='multiply'){
+        val *= input['input']
+      } else if(calculation.type==='divide'){
+        (input1['input'] / input2['input'])
+        calc_done = true
+      }
       val += input['input']
+      calc_done = false
     }
-
-  } else if(calculation.type==='subtract'){
-    console.log(input1['input'] - input2['input'])
-  } else if(calculation.type==='multiply'){
-    console.log(input1['input'] * input2['input'])
-  } else if(calculation.type==='divide'){
-    console.log(input1['input'] / input2['input'])
-  }
+  }  
 }
 
 calculator()
-
-/* const CHOICES = ["add", "sutract", "multiply", "divide" ];
-
-const QUESTIONS = [
-  {
-    name: 'Caculation Type',
-    type: 'list',
-    message: 'please select type of caculation you want to proceed',
-    choices: CHOICES
-  },
-  {
-    name: 'General Purpose',
-    type: 'input',
-    message: 'input number value:',
-  },
-  {
-    name: 'General Purpose',
-    type: 'input',
-    message: 'input number value:',
-  }
-];
-
-
-inquirer.prompt(QUESTIONS)
-  .then((answers: number) => {
-    console.log(answers);
-}); */
