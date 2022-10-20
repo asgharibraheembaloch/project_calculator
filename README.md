@@ -23,12 +23,19 @@
     <code>npm install <mark>inquirer</mark></code>
 </pre>
 
-<p>inside actual dependenncies we need to install package:</p>
+<p>add following lines into package.json file:</p>
 <pre>
  <code>
 "scripts": {
     "start": "ts-node --esm ./src/index.ts",
     "build": "tsc.cmd ./src/index.ts"
   },
+ </code>
+</pre>
+
+<p>add following lines into package.json file:</p>
+<pre>
+ <code>
+"type": "module"
  </code>
 </pre>
