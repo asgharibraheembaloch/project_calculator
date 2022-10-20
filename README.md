@@ -73,3 +73,13 @@
 </pre>
 
 <p>you are now 'good to go', make logic of your first calculator inside index.ts file in your desired IDE:</p>
+
+<p>if you have clone this project just run following command:</p>
+<pre>
+ <code>npm intall or yarn add</code>
+</pre>
+
+<pto execute prewritten code inside index.tx run following command:</p>
+<pre>
+ <code>npm start or yarn start</code>
+</pre>
