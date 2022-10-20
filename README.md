@@ -84,7 +84,6 @@
  <code>npm start or yarn start</code>
 </pre>
 <p>after running above mentioned command list of four option will displayed on your cli:</p>
-
 ![image](https://user-images.githubusercontent.com/46741864/196930162-723d433e-1f8b-468b-847e-304edb399f08.png)
 
 <p select option like i have select in case of addition it will prompt for values after two promts a new prompt will be displayed ask whether you want to continue with more values or not:</p>
