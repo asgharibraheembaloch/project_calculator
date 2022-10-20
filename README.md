@@ -79,7 +79,7 @@
  <code>npm intall or yarn add</code>
 </pre>
 
-<p to execute prewritten code inside index.tx run following command:</p>
+<p> to execute prewritten code inside index.tx run following command:</p>
 <pre>
  <code>npm start or yarn start</code>
 </pre>
