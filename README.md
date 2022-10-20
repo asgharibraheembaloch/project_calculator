@@ -45,4 +45,16 @@
  <code>tsc --init</code>
 </pre>
 
+<p>change following inside tsconfig.json file:</p>
+<pre>
+ <code>
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES6",
+   ...
+}
+ </code>
+</pre>
+
 
