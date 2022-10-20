@@ -23,6 +23,16 @@
     <code>npm install <mark>inquirer</mark></code>
 </pre>
 
+<p>open your terminal window and create a new directory:</p>
+<pre>
+    <code>mkdir <mark>src</mark></code>
+</pre>
+
+<p>go inside this directory with following command and crreate index.ts file inside it:</p>
+<pre>
+    <code>cd <mark>src</mark></code>
+</pre>
+
 <p>add following lines into package.json file:</p>
 <pre>
  <code>
