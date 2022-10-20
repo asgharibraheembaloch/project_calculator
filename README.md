@@ -39,3 +39,10 @@
 "type": "module"
  </code>
 </pre>
+
+<p>run following at project root directory:</p>
+<pre>
+    <code>tsc --init</code>
+</pre>
+
+
