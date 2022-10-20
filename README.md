@@ -7,7 +7,7 @@
 <h2>Step 1 — Setting Up the Project</h2>
 <p>First, open your terminal window and create a new project directory:</p>
 <pre>
-    <code>mkdir <mark>project00_calculator</mark></code>
+    <code>mkdir <mark>project_calculator</mark></code>
 </pre>
 <p>Then, navigate to this directory:</p>
 <pre>
