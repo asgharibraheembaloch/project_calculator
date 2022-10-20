@@ -71,3 +71,5 @@
 <pre>
  <code>npm start or yarn start</code>
 </pre>
+
+<p>you are now 'good to go', make logic of your first calculator inside index.ts file in your desired IDE:</p>
