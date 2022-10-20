@@ -74,12 +74,19 @@
 
 <p>you are now 'good to go', make logic of your first calculator inside index.ts file in your desired IDE:</p>
 
-<p>if you have clone this project just run following command:</p>
+<p>if you have cloned this project just run following command:</p>
 <pre>
  <code>npm intall or yarn add</code>
 </pre>
 
-<pto execute prewritten code inside index.tx run following command:</p>
+<p to execute prewritten code inside index.tx run following command:</p>
 <pre>
  <code>npm start or yarn start</code>
 </pre>
+
+<p after running above mentioned command list of four option will displayed on your cli:</p>
+![image](https://user-images.githubusercontent.com/46741864/196930162-723d433e-1f8b-468b-847e-304edb399f08.png)
+<p select option like i have select in case of addition it will prompt for values after two promts a new prompt will be displayed ask whether you want to continue with more values or not:</p>
+<p in case you have completed your calculation cli will console answer, displayed in below snip:</p>
+![image](https://user-images.githubusercontent.com/46741864/196930974-ed048e82-d948-47dc-bfb2-44dfdc40916d.png)
+
