@@ -57,4 +57,7 @@
  </code>
 </pre>
 
-
+<p>run following code at project root directory to execute node file or project file:</p>
+<pre>
+ <code>npm start or yarn start</code>
+</pre>
