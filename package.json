@@ -1,6 +1,6 @@
 {
   "name": "asgharcalculator",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "",
   "main": "./src/index.ts",
   "type": "module",
@@ -8,6 +8,18 @@
     "start": "ts-node --esm ./src/index.ts",
     "build": "tsc.cmd ./src/index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asgharibraheembaloch/project_calculator.git"
+  },
+  "files":  [
+    "./src/index.ts",
+    "src"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./feature": "./src/index.ts"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
